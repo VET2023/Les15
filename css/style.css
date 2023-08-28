@@ -1,0 +1,74 @@
+body{
+font-family: Verdana, sans-serif; 
+font-size: 18px; 
+background-color: snow;
+color: grey;
+}
+header, footer{
+background-color: plum;
+text-align: center
+}
+li{
+display: inline-block;
+height: 25px;
+width: 100px;
+padding: 12px;
+text-align: center;
+}
+li:hover{
+background-color: snow;
+color: black;
+}
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 450px;
+height: auto;
+padding: 12px;
+}
+p{
+padding: 5px;
+margin-left: auto;
+margin-right: auto;
+width: 50%
+}
+table{
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.t1, .t2{
+font-size: 30px;
+color: darkgrey;
+}
+.j1, .j2, .j3, .p1, .p2{
+vertical-align: top;
+}
+.form-center{
+display: flex;
+justify-content: center;
+}
+form{
+padding: 5px;
+font-size: 30px;
+color: darkgrey;
+}
+input[type="text"], input[type="email"], textarea, button{
+font-family: Verdana, sans-serif;
+display: block;
+margin: 15px 0px;
+height: 30px;
+width: 400px;
+box-sizing: border-box;
+border-radius: 4px;
+box-shadow: inset 2px 2px 2px darkgrey;
+}
+textarea{
+height: 200px;
+}
+button:active{
+background-color: purple;
+color: white;
+}
